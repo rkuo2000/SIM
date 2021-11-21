@@ -10,7 +10,7 @@ debug = false
 n_channel = 4
 num_classes = 20
 load_size = 320
-resume_checkpoint = "checkpoints/classifier_resnet50_best.pth.tar"
+resume_checkpoint = "checkpoints/SIM/ckpt_best.pth"
 
 
 [model]
