@@ -36,5 +36,5 @@ checkpoint_path = "./checkpoints"
 
 
 [test]
-checkpoint = "best"
+checkpoint = "ckpt_best"
 fast_eval = true
