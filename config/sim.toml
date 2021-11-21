@@ -10,11 +10,11 @@ debug = false
 n_channel = 4
 num_classes = 20
 load_size = 320
-resume_checkpoint = "checkpoints/SIM/ckpt_best.pth"
+resume_checkpoint = "checkpoints/ckpt_best.pth"
 
 
 [model]
-resume_checkpoint = "checkpoints/SIM/ckpt_best.pth"
+resume_checkpoint = "checkpoints/ckpt_best.pth"
 
 
 [model.arch]
