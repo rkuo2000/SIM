@@ -1,3 +1,4 @@
+*modify networks/model.py "pretrained=False"*
 # Semantic Image Matting
 ---
 This is the official repository of Semantic Image Matting (CVPR2021). 
