@@ -10,11 +10,11 @@ debug = false
 n_channel = 4
 num_classes = 20
 load_size = 320
-resume_checkpoint = "checkpoints/ckpt_best.pth"
+resume_checkpoint = "checkpoints/classifier_resnet50_best.pth.tar"
 
 
 [model]
-resume_checkpoint = "checkpoints/ckpt_best.pth"
+resume_checkpoint = "checkpoints/SIM/ckpt_best.pth"
 
 
 [model.arch]
@@ -36,5 +36,5 @@ checkpoint_path = "./checkpoints"
 
 
 [test]
-checkpoint = "ckpt_best"
+checkpoint = "best"
 fast_eval = true
